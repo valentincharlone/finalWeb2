@@ -1,0 +1,51 @@
+PREGUNTA 4
+
+A- Los cambios que se deberian agregar son:
+-Agregar nuevo routeo-api
+-Agregar enrrutamiento del api al htaccess
+-Agregar un nuevo apiController
+-Agregar una nueva apiView
+-Agregar archivo js para renderizar cada peticion
+
+
+Pregunta 5
+API REST
+
+A-i
+
+Api Rest(REpresentational State Transfer) es una arquitectura de desarrollo web que se apoya totalmente en el protocolo HTTP.
+Ademas propociona una API que es utilizada para cada uno de los metodos del protocolo.
+
+VENTAJAS
+
+-Separacion entre el cliente y el servidor. el protocolo REST separa totalmente la interfaz de usuario del servidor y el almacenamiento de datos.
+-Visibilidad y escalabilidad. La separación entre cliente y servidor tiene una ventaja evidente y es que cualquier equipo de desarrollo puede escalar el producto sin excesivos problemas.
+-Es independiente del tipo de plataformas o lenguajes. siempre se adapta al tipo de sintaxis o plataformas con las que se estén trabajando,
+ lo que ofrece una gran libertad a la hora de cambiar o probar nuevos entornos dentro del desarrollo.
+
+ -ii 
+	
+Lo que agregaria yo a este sistema es incluir un ruteo api nuevo, el cual va a estar vinculado con un apiController y ademas poder mostrar 
+diferentes cosas del lado del cliente, esto se hace agregando un archivo js y procese todos los datos del lado del cliente y genere una mejor
+experiencia del lado del usuario ya que renderiza toda la pagina mas rapida y ademas que divide tambien parte del Front y Back.
+
+B-i
+
+Server Side Rendering se basa en la posibilidad de poder renderizar el HTML de nuestros componentes en cadenas de texto en la parte del servidor.
+	
+-ii
+
+HTTP Status codes, estos codigos de estado nos indican si se ha completado satisfactoriamente una solicitud HTTP especifica, estas se agrupan en 
+diferentes clases:
+-Respuestas informativas (100–199),
+-Respuestas satisfactorias (200–299),
+-Redirecciones (300–399),
+-Errores de los clientes (400–499),
+-Errores de los servidores (500–599).
+
+-iii
+
+Sessiones de usuarios, son una forma sencilla de almacenar datos para usuarios de manera individual usando un ID de sesión único. 
+Esto se puede usar para hacer persistente la información de estado entre peticiones de páginas.
+
+	
